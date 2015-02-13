@@ -1,0 +1,351 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   'hapi',
+1 verbose cli   '--save',
+1 verbose cli   'package.json' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink /usr/bin/node
+5 warn package.json site@1.0.0 No description
+6 warn package.json site@1.0.0 No repository field.
+7 warn package.json site@1.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'hapi', null ]
+10 verbose cache add name=undefined spec="hapi" args=["hapi",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'hapi',
+11 verbose parsed url   path: 'hapi',
+11 verbose parsed url   href: 'hapi' }
+12 verbose cache add [ 'package.json', null ]
+13 verbose cache add name=undefined spec="package.json" args=["package.json",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'package.json',
+14 verbose parsed url   path: 'package.json',
+14 verbose parsed url   href: 'package.json' }
+15 silly lockFile 04ea8046-hapi hapi
+16 verbose lock hapi /home/joao/.npm/04ea8046-hapi.lock
+17 silly lockFile 7030d0b2-package-json package.json
+18 verbose lock package.json /home/joao/.npm/7030d0b2-package-json.lock
+19 silly lockFile 04ea8046-hapi hapi
+20 silly lockFile 04ea8046-hapi hapi
+21 verbose addNamed [ 'hapi', '' ]
+22 verbose addNamed [ null, '*' ]
+23 silly lockFile 5603efdf-hapi hapi@
+24 verbose lock hapi@ /home/joao/.npm/5603efdf-hapi.lock
+25 silly addNameRange { name: 'hapi', range: '*', hasData: false }
+26 verbose chmod /tmp/npm-9770-c0QsTG86/1423853349364-0.7520623677410185/tmp.tgz 664
+27 verbose tar unpack /tmp/npm-9770-c0QsTG86/1423853349364-0.7520623677410185/tmp.tgz
+28 silly lockFile c48388ad--7520623677410185-tmp-tgz-unpack tar:///tmp/npm-9770-c0QsTG86/1423853349364-0.7520623677410185/tmp.tgz-unpack
+29 verbose lock tar:///tmp/npm-9770-c0QsTG86/1423853349364-0.7520623677410185/tmp.tgz-unpack /home/joao/.npm/c48388ad--7520623677410185-tmp-tgz-unpack.lock
+30 silly lockFile f79b7b01-49364-0-7520623677410185-tmp-tgz tar:///tmp/npm-9770-c0QsTG86/1423853349364-0.7520623677410185/tmp.tgz
+31 verbose lock tar:///tmp/npm-9770-c0QsTG86/1423853349364-0.7520623677410185/tmp.tgz /home/joao/.npm/f79b7b01-49364-0-7520623677410185-tmp-tgz.lock
+32 silly gunzTarPerm modes [ '775', '664' ]
+33 error not a package /tmp/npm-9770-c0QsTG86/1423853349364-0.7520623677410185/tmp.tgz
+34 silly lockFile c48388ad--7520623677410185-tmp-tgz-unpack tar:///tmp/npm-9770-c0QsTG86/1423853349364-0.7520623677410185/tmp.tgz-unpack
+35 silly lockFile c48388ad--7520623677410185-tmp-tgz-unpack tar:///tmp/npm-9770-c0QsTG86/1423853349364-0.7520623677410185/tmp.tgz-unpack
+36 silly lockFile f79b7b01-49364-0-7520623677410185-tmp-tgz tar:///tmp/npm-9770-c0QsTG86/1423853349364-0.7520623677410185/tmp.tgz
+37 silly lockFile f79b7b01-49364-0-7520623677410185-tmp-tgz tar:///tmp/npm-9770-c0QsTG86/1423853349364-0.7520623677410185/tmp.tgz
+38 silly lockFile 7030d0b2-package-json package.json
+39 silly lockFile 7030d0b2-package-json package.json
+40 verbose addNamed [ 'package.json', '' ]
+41 verbose addNamed [ null, '*' ]
+42 silly lockFile 20e84675-package-json package.json@
+43 verbose lock package.json@ /home/joao/.npm/20e84675-package-json.lock
+44 silly addNameRange { name: 'package.json', range: '*', hasData: false }
+45 verbose request where is /package.json
+46 verbose request registry https://registry.npmjs.org/
+47 verbose request id 68dc01f82f8088dd
+48 verbose url raw /package.json
+49 verbose url resolving [ 'https://registry.npmjs.org/', './package.json' ]
+50 verbose url resolved https://registry.npmjs.org/package.json
+51 verbose request where is https://registry.npmjs.org/package.json
+52 info trying registry request attempt 1 at 18:49:09
+53 http GET https://registry.npmjs.org/package.json
+54 verbose request where is /hapi
+55 verbose request registry https://registry.npmjs.org/
+56 verbose url raw /hapi
+57 verbose url resolving [ 'https://registry.npmjs.org/', './hapi' ]
+58 verbose url resolved https://registry.npmjs.org/hapi
+59 verbose request where is https://registry.npmjs.org/hapi
+60 info trying registry request attempt 1 at 18:49:09
+61 verbose etag "CBOBRJOP5AIPWWVXEWAZCVNY1"
+62 http GET https://registry.npmjs.org/hapi
+63 http 200 https://registry.npmjs.org/hapi
+64 silly registry.get cb [ 200,
+64 silly registry.get   { date: 'Fri, 13 Feb 2015 18:49:08 GMT',
+64 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+64 silly registry.get     etag: '"CM7F05C79A5VIQKZ54YKHS66L"',
+64 silly registry.get     'content-type': 'application/json',
+64 silly registry.get     'cache-control': 'max-age=60',
+64 silly registry.get     'content-length': '246462',
+64 silly registry.get     'accept-ranges': 'bytes',
+64 silly registry.get     via: '1.1 varnish',
+64 silly registry.get     age: '0',
+64 silly registry.get     'x-served-by': 'cache-lcy1124-LCY',
+64 silly registry.get     'x-cache': 'MISS',
+64 silly registry.get     'x-cache-hits': '0',
+64 silly registry.get     'x-timer': 'S1423853348.880457,VS0,VE101',
+64 silly registry.get     vary: 'Accept',
+64 silly registry.get     'keep-alive': 'timeout=10, max=50',
+64 silly registry.get     connection: 'Keep-Alive' } ]
+65 silly addNameRange number 2 { name: 'hapi', range: '*', hasData: true }
+66 silly addNameRange versions [ 'hapi',
+66 silly addNameRange   [ '0.0.1',
+66 silly addNameRange     '0.0.2',
+66 silly addNameRange     '0.0.3',
+66 silly addNameRange     '0.0.4',
+66 silly addNameRange     '0.0.5',
+66 silly addNameRange     '0.0.6',
+66 silly addNameRange     '0.1.0',
+66 silly addNameRange     '0.1.1',
+66 silly addNameRange     '0.1.2',
+66 silly addNameRange     '0.1.3',
+66 silly addNameRange     '0.2.0',
+66 silly addNameRange     '0.2.1',
+66 silly addNameRange     '0.3.0',
+66 silly addNameRange     '0.4.0',
+66 silly addNameRange     '0.4.1',
+66 silly addNameRange     '0.4.2',
+66 silly addNameRange     '0.4.3',
+66 silly addNameRange     '0.4.4',
+66 silly addNameRange     '0.5.0',
+66 silly addNameRange     '0.5.1',
+66 silly addNameRange     '0.6.0',
+66 silly addNameRange     '0.6.1',
+66 silly addNameRange     '0.5.2',
+66 silly addNameRange     '0.7.0',
+66 silly addNameRange     '0.7.1',
+66 silly addNameRange     '0.8.0',
+66 silly addNameRange     '0.8.1',
+66 silly addNameRange     '0.8.2',
+66 silly addNameRange     '0.8.3',
+66 silly addNameRange     '0.8.4',
+66 silly addNameRange     '0.9.0',
+66 silly addNameRange     '0.9.1',
+66 silly addNameRange     '0.9.2',
+66 silly addNameRange     '0.10.0',
+66 silly addNameRange     '0.10.1',
+66 silly addNameRange     '0.11.0',
+66 silly addNameRange     '0.11.1',
+66 silly addNameRange     '0.11.2',
+66 silly addNameRange     '0.11.3',
+66 silly addNameRange     '0.12.0',
+66 silly addNameRange     '0.13.0',
+66 silly addNameRange     '0.13.1',
+66 silly addNameRange     '0.13.2',
+66 silly addNameRange     '0.11.4',
+66 silly addNameRange     '0.13.3',
+66 silly addNameRange     '0.14.0',
+66 silly addNameRange     '0.14.1',
+66 silly addNameRange     '0.14.2',
+66 silly addNameRange     '0.15.0',
+66 silly addNameRange     '0.15.1',
+66 silly addNameRange     '0.15.2',
+66 silly addNameRange     '0.15.3',
+66 silly addNameRange     '0.15.4',
+66 silly addNameRange     '0.15.5',
+66 silly addNameRange     '0.15.6',
+66 silly addNameRange     '0.15.7',
+66 silly addNameRange     '0.15.8',
+66 silly addNameRange     '0.15.9',
+66 silly addNameRange     '0.16.0',
+66 silly addNameRange     '1.0.0',
+66 silly addNameRange     '1.0.1',
+66 silly addNameRange     '1.0.2',
+66 silly addNameRange     '1.0.3',
+66 silly addNameRange     '1.1.0',
+66 silly addNameRange     '1.2.0',
+66 silly addNameRange     '1.3.0',
+66 silly addNameRange     '1.4.0',
+66 silly addNameRange     '1.5.0',
+66 silly addNameRange     '1.6.0',
+66 silly addNameRange     '1.6.1',
+66 silly addNameRange     '1.6.2',
+66 silly addNameRange     '1.7.0',
+66 silly addNameRange     '1.7.1',
+66 silly addNameRange     '1.7.2',
+66 silly addNameRange     '1.7.3',
+66 silly addNameRange     '1.8.0',
+66 silly addNameRange     '1.8.1',
+66 silly addNameRange     '1.8.2',
+66 silly addNameRange     '1.8.3',
+66 silly addNameRange     '1.9.0',
+66 silly addNameRange     '1.9.1',
+66 silly addNameRange     '1.9.2',
+66 silly addNameRange     '1.9.3',
+66 silly addNameRange     '1.9.4',
+66 silly addNameRange     '1.9.5',
+66 silly addNameRange     '1.9.6',
+66 silly addNameRange     '1.9.7',
+66 silly addNameRange     '1.10.0',
+66 silly addNameRange     '1.11.0',
+66 silly addNameRange     '1.11.1',
+66 silly addNameRange     '1.12.0',
+66 silly addNameRange     '1.13.0',
+66 silly addNameRange     '1.14.0',
+66 silly addNameRange     '1.15.0',
+66 silly addNameRange     '1.16.0',
+66 silly addNameRange     '1.16.1',
+66 silly addNameRange     '1.17.0',
+66 silly addNameRange     '1.18.0',
+66 silly addNameRange     '1.19.0',
+66 silly addNameRange     '1.19.1',
+66 silly addNameRange     '1.19.2',
+66 silly addNameRange     '1.19.3',
+66 silly addNameRange     '1.19.4',
+66 silly addNameRange     '1.19.5',
+66 silly addNameRange     '1.20.0',
+66 silly addNameRange     '2.0.0-preview',
+66 silly addNameRange     '0.5.1-a',
+66 silly addNameRange     '0.5.1-b',
+66 silly addNameRange     '0.5.1-b2',
+66 silly addNameRange     '0.5.1-c',
+66 silly addNameRange     '2.0.0',
+66 silly addNameRange     '2.1.0',
+66 silly addNameRange     '2.1.1',
+66 silly addNameRange     '2.1.2',
+66 silly addNameRange     '2.2.0',
+66 silly addNameRange     '2.3.0',
+66 silly addNameRange     '2.4.0',
+66 silly addNameRange     '2.5.0',
+66 silly addNameRange     '2.6.0',
+66 silly addNameRange     '3.0.0',
+66 silly addNameRange     '3.0.1',
+66 silly addNameRange     '3.0.2',
+66 silly addNameRange     '3.1.0',
+66 silly addNameRange     '4.0.0',
+66 silly addNameRange     '4.0.1',
+66 silly addNameRange     '4.0.2',
+66 silly addNameRange     '4.0.3',
+66 silly addNameRange     '4.1.0',
+66 silly addNameRange     '4.1.1',
+66 silly addNameRange     '4.1.2',
+66 silly addNameRange     '4.1.3',
+66 silly addNameRange     '4.1.4',
+66 silly addNameRange     '5.0.0',
+66 silly addNameRange     '5.1.0',
+66 silly addNameRange     '6.0.0',
+66 silly addNameRange     '6.0.1',
+66 silly addNameRange     '6.0.2',
+66 silly addNameRange     '6.1.0',
+66 silly addNameRange     '6.2.0',
+66 silly addNameRange     '6.2.1',
+66 silly addNameRange     '6.2.2',
+66 silly addNameRange     '6.3.0',
+66 silly addNameRange     '6.4.0',
+66 silly addNameRange     '6.5.0',
+66 silly addNameRange     '6.5.1',
+66 silly addNameRange     '6.6.0',
+66 silly addNameRange     '6.7.0',
+66 silly addNameRange     '6.7.1',
+66 silly addNameRange     '6.8.0',
+66 silly addNameRange     '6.8.1',
+66 silly addNameRange     '6.9.0',
+66 silly addNameRange     '6.10.0',
+66 silly addNameRange     '6.11.0',
+66 silly addNameRange     '6.11.1',
+66 silly addNameRange     '7.0.0',
+66 silly addNameRange     '7.0.1',
+66 silly addNameRange     '7.1.0',
+66 silly addNameRange     '7.1.1',
+66 silly addNameRange     '7.2.0',
+66 silly addNameRange     '7.3.0',
+66 silly addNameRange     '7.4.0',
+66 silly addNameRange     '7.5.0',
+66 silly addNameRange     '7.5.1',
+66 silly addNameRange     '7.5.2',
+66 silly addNameRange     '8.0.0',
+66 silly addNameRange     '7.5.3',
+66 silly addNameRange     '8.1.0',
+66 silly addNameRange     '8.2.0' ] ]
+67 verbose addNamed [ 'hapi', '8.2.0' ]
+68 verbose addNamed [ '8.2.0', '8.2.0' ]
+69 silly lockFile 6ba4cfe9-hapi-8-2-0 hapi@8.2.0
+70 verbose lock hapi@8.2.0 /home/joao/.npm/6ba4cfe9-hapi-8-2-0.lock
+71 silly lockFile dce9d4a9-ry-npmjs-org-hapi-hapi-8-2-0-tgz https://registry.npmjs.org/hapi/-/hapi-8.2.0.tgz
+72 verbose lock https://registry.npmjs.org/hapi/-/hapi-8.2.0.tgz /home/joao/.npm/dce9d4a9-ry-npmjs-org-hapi-hapi-8-2-0-tgz.lock
+73 verbose addRemoteTarball [ 'https://registry.npmjs.org/hapi/-/hapi-8.2.0.tgz',
+73 verbose addRemoteTarball   '7c67527da6abb4b70f0b1a1926d0aeb5d9229a76' ]
+74 info retry fetch attempt 1 at 18:49:09
+75 verbose fetch to= /tmp/npm-9770-c0QsTG86/registry.npmjs.org/hapi/-/hapi-8.2.0.tgz
+76 http GET https://registry.npmjs.org/hapi/-/hapi-8.2.0.tgz
+77 http 200 https://registry.npmjs.org/hapi/-/hapi-8.2.0.tgz
+78 http 200 https://registry.npmjs.org/package.json
+79 silly registry.get cb [ 200,
+79 silly registry.get   { date: 'Fri, 13 Feb 2015 18:49:09 GMT',
+79 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+79 silly registry.get     etag: '"1D9P65G56O5P9UYWVY1NKLYXB"',
+79 silly registry.get     'content-type': 'application/json',
+79 silly registry.get     'cache-control': 'max-age=60',
+79 silly registry.get     'content-length': '1051',
+79 silly registry.get     'accept-ranges': 'bytes',
+79 silly registry.get     via: '1.1 varnish',
+79 silly registry.get     age: '0',
+79 silly registry.get     'x-served-by': 'cache-fra1243-FRA',
+79 silly registry.get     'x-cache': 'MISS',
+79 silly registry.get     'x-cache-hits': '0',
+79 silly registry.get     'x-timer': 'S1423853348.924969,VS0,VE702',
+79 silly registry.get     vary: 'Accept',
+79 silly registry.get     'keep-alive': 'timeout=10, max=50',
+79 silly registry.get     connection: 'Keep-Alive' } ]
+80 silly addNameRange number 2 { name: 'package.json', range: '*', hasData: true }
+81 silly addNameRange versions [ 'package.json', [ '0.0.0' ] ]
+82 verbose addNamed [ 'package.json', '0.0.0' ]
+83 verbose addNamed [ '0.0.0', '0.0.0' ]
+84 silly lockFile 8dd0b86f-package-json-0-0-0 package.json@0.0.0
+85 verbose lock package.json@0.0.0 /home/joao/.npm/8dd0b86f-package-json-0-0-0.lock
+86 silly lockFile 81391ec0-kage-json-package-json-0-0-0-tgz https://registry.npmjs.org/package.json/-/package.json-0.0.0.tgz
+87 verbose lock https://registry.npmjs.org/package.json/-/package.json-0.0.0.tgz /home/joao/.npm/81391ec0-kage-json-package-json-0-0-0-tgz.lock
+88 verbose addRemoteTarball [ 'https://registry.npmjs.org/package.json/-/package.json-0.0.0.tgz',
+88 verbose addRemoteTarball   '1b89bd73ac984da9629af20c1375437adcc5dac6' ]
+89 info retry fetch attempt 1 at 18:49:10
+90 verbose fetch to= /tmp/npm-9770-c0QsTG86/registry.npmjs.org/package.json/-/package.json-0.0.0.tgz
+91 http GET https://registry.npmjs.org/package.json/-/package.json-0.0.0.tgz
+92 silly lockFile dce9d4a9-ry-npmjs-org-hapi-hapi-8-2-0-tgz https://registry.npmjs.org/hapi/-/hapi-8.2.0.tgz
+93 silly lockFile dce9d4a9-ry-npmjs-org-hapi-hapi-8-2-0-tgz https://registry.npmjs.org/hapi/-/hapi-8.2.0.tgz
+94 silly lockFile 6ba4cfe9-hapi-8-2-0 hapi@8.2.0
+95 silly lockFile 6ba4cfe9-hapi-8-2-0 hapi@8.2.0
+96 silly lockFile 5603efdf-hapi hapi@
+97 silly lockFile 5603efdf-hapi hapi@
+98 http 200 https://registry.npmjs.org/package.json/-/package.json-0.0.0.tgz
+99 silly lockFile 81391ec0-kage-json-package-json-0-0-0-tgz https://registry.npmjs.org/package.json/-/package.json-0.0.0.tgz
+100 silly lockFile 81391ec0-kage-json-package-json-0-0-0-tgz https://registry.npmjs.org/package.json/-/package.json-0.0.0.tgz
+101 silly lockFile 8dd0b86f-package-json-0-0-0 package.json@0.0.0
+102 silly lockFile 8dd0b86f-package-json-0-0-0 package.json@0.0.0
+103 silly lockFile 20e84675-package-json package.json@
+104 silly lockFile 20e84675-package-json package.json@
+105 error Error: EACCES, mkdir '/home/joao/.npm/hapi/8.2.0'
+105 error  { [Error: EACCES, mkdir '/home/joao/.npm/hapi/8.2.0']
+105 error   errno: 3,
+105 error   code: 'EACCES',
+105 error   path: '/home/joao/.npm/hapi/8.2.0',
+105 error   parent: 'site' }
+106 error Please try running this command again as root/Administrator.
+107 error System Linux 3.13.0-45-generic
+108 error command "/usr/bin/node" "/usr/bin/npm" "i" "hapi" "--save" "package.json"
+109 error cwd /home/joao/desktop/github/site
+110 error node -v v0.10.33
+111 error npm -v 1.4.28
+112 error path /home/joao/.npm/hapi/8.2.0
+113 error code EACCES
+114 error errno 3
+115 error stack Error: EACCES, mkdir '/home/joao/.npm/hapi/8.2.0'
+116 verbose exit [ 3, true ]

@@ -1,0 +1,24 @@
+<html>
+    <head><title>Question page</title></head>
+    <body>
+    	<div>{{questionInfo}}</div>
+        <div>
+        	<ul>
+  			  	<form action="http://localhost:8080/question/{{id}}" method="post">
+  			  		{{#each answerInfo}}
+  			  		    <input name="answer" type="submit" id="{{../id}}" value="{{text}}"></input>
+  			  		{{/each}}
+      			</form>  
+    			</ul>
+        </div>
+        <br>
+       	<div>
+       		<a href="http://localhost:8080/question/{{nav.prev}}" class="button" role="button">
+       			<button>prev</button>
+          </a>
+       		<a href="http://localhost:8080/question/{{nav.next}}" class="button" role="button">
+       			<button>next</button>
+          </a>
+		    </div>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+<html>
+    <head>
+    	<title>Admin page</title>
+    </head>
+    <body>
+        <h3>You are admin</h3>
+        <br>
+        <div>
+        	<h3>Scores:</h3>
+	        {{#each scoreInfo}}
+	  		    <p><b>{{username}}</b>: {{score}}</p>
+	  		{{/each}}	
+        </div>
+    </body>
+</html>
